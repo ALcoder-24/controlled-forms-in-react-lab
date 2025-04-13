@@ -1,11 +1,9 @@
-import './App.css';
-import Bookshelf from './Bookshelf.jsx';
-import './App.css'
-
+import "./App.css";
+import Bookshelf from "./components/Bookshelf/Bookshelf.jsx";
 const App = () => {
-  return(
+  return (
     <>
-   <h1>My Bookshelf!</h1>;
+   <h1>My Bookshelf!</h1>
   <Bookshelf />
   </>
   );
